@@ -1,3 +1,6 @@
+# install the pynput module to run this Code
+# Command = pip install pynput
+
 import pynput
 from pynput.keyboard import Key, Controller
 import time
