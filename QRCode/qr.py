@@ -5,8 +5,7 @@ qr = qrcode.QRCode(
     box_size = 10,
     border = 5
 )
-data = "https://farhan-ur-rahman.github.io/02%20Areas/DEVOPS.html"
-
+data = "https://www.youtube.com/@muneerabdullahsalafi4788"
 qr.add_data(data)
 qr.make(fit = True)
 img = qr.make_image(fill = "black", back_color = "white")
