@@ -1,3 +1,6 @@
+# install the qrcode & image module to run this Code
+# Command = pip install qrcode && pip install image
+
 import qrcode
 import image
 qr = qrcode.QRCode(
